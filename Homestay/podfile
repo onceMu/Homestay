@@ -1,0 +1,20 @@
+target 'Homestay' do
+    use_frameworks!
+    
+
+   pod 'Masonry', '~> 1.0.1'
+   pod 'FMDB', '~> 2.7'
+   pod 'SDWebImage', '~> 4.2.3'
+   pod 'IQKeyboardManager'
+   pod 'AFNetworking', '~> 3.1'
+   pod 'YYModel', '~> 1.0.4'
+   pod 'DateTools', '~> 2.0.0'
+   pod 'DZNEmptyDataSet', '~> 1.8.1'
+   pod 'CHTCollectionViewWaterfallLayout', '~> 0.9.7'
+   pod 'Reachability', '~> 3.2'
+   
+   
+
+
+   inhibit_all_warnings!
+end

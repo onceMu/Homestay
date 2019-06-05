@@ -1,0 +1,847 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BFAC9EF22A7592D00CA4C9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAC9EE22A7592D00CA4C9A /* AppDelegate.m */; };
+		8BFAC9F722A7592F00CA4C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFAC9F622A7592F00CA4C9A /* Assets.xcassets */; };
+		8BFAC9FD22A7592F00CA4C9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAC9FC22A7592F00CA4C9A /* main.m */; };
+		8BFACA0722A7592F00CA4C9A /* HomestayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFACA0622A7592F00CA4C9A /* HomestayTests.m */; };
+		8BFACA1222A7592F00CA4C9A /* HomestayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFACA1122A7592F00CA4C9A /* HomestayUITests.m */; };
+		A7DDFB4FE40A769E8188C911 /* Pods_Homestay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8497364F0F63249E5A4565E /* Pods_Homestay.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BFACA0322A7592F00CA4C9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BFAC9E222A7592D00CA4C9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BFAC9E922A7592D00CA4C9A;
+			remoteInfo = Homestay;
+		};
+		8BFACA0E22A7592F00CA4C9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BFAC9E222A7592D00CA4C9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BFAC9E922A7592D00CA4C9A;
+			remoteInfo = Homestay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0544437DA8B4AA6217E4E568 /* Pods-Homestay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homestay.debug.xcconfig"; path = "Target Support Files/Pods-Homestay/Pods-Homestay.debug.xcconfig"; sourceTree = "<group>"; };
+		8BFAC9EA22A7592D00CA4C9A /* Homestay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homestay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFAC9ED22A7592D00CA4C9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BFAC9EE22A7592D00CA4C9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BFAC9F622A7592F00CA4C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BFAC9FB22A7592F00CA4C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BFAC9FC22A7592F00CA4C9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BFACA0222A7592F00CA4C9A /* HomestayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomestayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFACA0622A7592F00CA4C9A /* HomestayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomestayTests.m; sourceTree = "<group>"; };
+		8BFACA0822A7592F00CA4C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BFACA0D22A7592F00CA4C9A /* HomestayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomestayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFACA1122A7592F00CA4C9A /* HomestayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomestayUITests.m; sourceTree = "<group>"; };
+		8BFACA1322A7592F00CA4C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8497364F0F63249E5A4565E /* Pods_Homestay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Homestay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBCC4AC952350D5EDE18A59C /* Pods-Homestay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homestay.release.xcconfig"; path = "Target Support Files/Pods-Homestay/Pods-Homestay.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BFAC9E722A7592D00CA4C9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DDFB4FE40A769E8188C911 /* Pods_Homestay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFAC9FF22A7592F00CA4C9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFACA0A22A7592F00CA4C9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30CA351BC840D7350160635C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8497364F0F63249E5A4565E /* Pods_Homestay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52838DB87E2EFFA86335E0FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0544437DA8B4AA6217E4E568 /* Pods-Homestay.debug.xcconfig */,
+				BBCC4AC952350D5EDE18A59C /* Pods-Homestay.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8BFAC9E122A7592D00CA4C9A = {
+			isa = PBXGroup;
+			children = (
+				8BFAC9EC22A7592D00CA4C9A /* Homestay */,
+				8BFACA0522A7592F00CA4C9A /* HomestayTests */,
+				8BFACA1022A7592F00CA4C9A /* HomestayUITests */,
+				8BFAC9EB22A7592D00CA4C9A /* Products */,
+				52838DB87E2EFFA86335E0FB /* Pods */,
+				30CA351BC840D7350160635C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8BFAC9EB22A7592D00CA4C9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BFAC9EA22A7592D00CA4C9A /* Homestay.app */,
+				8BFACA0222A7592F00CA4C9A /* HomestayTests.xctest */,
+				8BFACA0D22A7592F00CA4C9A /* HomestayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BFAC9EC22A7592D00CA4C9A /* Homestay */ = {
+			isa = PBXGroup;
+			children = (
+				8BFACA1F22A75BAF00CA4C9A /* Class */,
+				8BFACA3922A75BAF00CA4C9A /* Common */,
+				8BFAC9ED22A7592D00CA4C9A /* AppDelegate.h */,
+				8BFAC9EE22A7592D00CA4C9A /* AppDelegate.m */,
+				8BFAC9F622A7592F00CA4C9A /* Assets.xcassets */,
+				8BFAC9FB22A7592F00CA4C9A /* Info.plist */,
+				8BFAC9FC22A7592F00CA4C9A /* main.m */,
+			);
+			path = Homestay;
+			sourceTree = "<group>";
+		};
+		8BFACA0522A7592F00CA4C9A /* HomestayTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BFACA0622A7592F00CA4C9A /* HomestayTests.m */,
+				8BFACA0822A7592F00CA4C9A /* Info.plist */,
+			);
+			path = HomestayTests;
+			sourceTree = "<group>";
+		};
+		8BFACA1022A7592F00CA4C9A /* HomestayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BFACA1122A7592F00CA4C9A /* HomestayUITests.m */,
+				8BFACA1322A7592F00CA4C9A /* Info.plist */,
+			);
+			path = HomestayUITests;
+			sourceTree = "<group>";
+		};
+		8BFACA1F22A75BAF00CA4C9A /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				8BFACA2022A75BAF00CA4C9A /* Home */,
+				8BFACA2522A75BAF00CA4C9A /* Collect */,
+				8BFACA2A22A75BAF00CA4C9A /* Message */,
+				8BFACA2F22A75BAF00CA4C9A /* User */,
+				8BFACA3422A75BAF00CA4C9A /* Login */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		8BFACA2022A75BAF00CA4C9A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8BFACA2122A75BAF00CA4C9A /* ViewModel */,
+				8BFACA2222A75BAF00CA4C9A /* Controller */,
+				8BFACA2322A75BAF00CA4C9A /* Model */,
+				8BFACA2422A75BAF00CA4C9A /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8BFACA2122A75BAF00CA4C9A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8BFACA2222A75BAF00CA4C9A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8BFACA2322A75BAF00CA4C9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8BFACA2422A75BAF00CA4C9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BFACA2522A75BAF00CA4C9A /* Collect */ = {
+			isa = PBXGroup;
+			children = (
+				8BFACA2622A75BAF00CA4C9A /* ViewModel */,
+				8BFACA2722A75BAF00CA4C9A /* Controller */,
+				8BFACA2822A75BAF00CA4C9A /* Model */,
+				8BFACA2922A75BAF00CA4C9A /* View */,
+			);
+			path = Collect;
+			sourceTree = "<group>";
+		};
+		8BFACA2622A75BAF00CA4C9A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8BFACA2722A75BAF00CA4C9A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8BFACA2822A75BAF00CA4C9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8BFACA2922A75BAF00CA4C9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BFACA2A22A75BAF00CA4C9A /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				8BFACA2B22A75BAF00CA4C9A /* ViewModel */,
+				8BFACA2C22A75BAF00CA4C9A /* Controller */,
+				8BFACA2D22A75BAF00CA4C9A /* Model */,
+				8BFACA2E22A75BAF00CA4C9A /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		8BFACA2B22A75BAF00CA4C9A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8BFACA2C22A75BAF00CA4C9A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8BFACA2D22A75BAF00CA4C9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8BFACA2E22A75BAF00CA4C9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BFACA2F22A75BAF00CA4C9A /* User */ = {
+			isa = PBXGroup;
+			children = (
+				8BFACA3022A75BAF00CA4C9A /* ViewModel */,
+				8BFACA3122A75BAF00CA4C9A /* Controller */,
+				8BFACA3222A75BAF00CA4C9A /* Model */,
+				8BFACA3322A75BAF00CA4C9A /* View */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		8BFACA3022A75BAF00CA4C9A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8BFACA3122A75BAF00CA4C9A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8BFACA3222A75BAF00CA4C9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8BFACA3322A75BAF00CA4C9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BFACA3422A75BAF00CA4C9A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8BFACA3522A75BAF00CA4C9A /* ViewModel */,
+				8BFACA3622A75BAF00CA4C9A /* Controller */,
+				8BFACA3722A75BAF00CA4C9A /* Model */,
+				8BFACA3822A75BAF00CA4C9A /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8BFACA3522A75BAF00CA4C9A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8BFACA3622A75BAF00CA4C9A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8BFACA3722A75BAF00CA4C9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8BFACA3822A75BAF00CA4C9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BFACA3922A75BAF00CA4C9A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8BFACA3A22A75BAF00CA4C9A /* Category */,
+				8BFACA3B22A75BAF00CA4C9A /* Utils */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8BFACA3A22A75BAF00CA4C9A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		8BFACA3B22A75BAF00CA4C9A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BFAC9E922A7592D00CA4C9A /* Homestay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BFACA1622A7592F00CA4C9A /* Build configuration list for PBXNativeTarget "Homestay" */;
+			buildPhases = (
+				74F69F96B6DDC4260CE94186 /* [CP] Check Pods Manifest.lock */,
+				8BFAC9E622A7592D00CA4C9A /* Sources */,
+				8BFAC9E722A7592D00CA4C9A /* Frameworks */,
+				8BFAC9E822A7592D00CA4C9A /* Resources */,
+				B5909426BDD50637CFFA76D3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Homestay;
+			productName = Homestay;
+			productReference = 8BFAC9EA22A7592D00CA4C9A /* Homestay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BFACA0122A7592F00CA4C9A /* HomestayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BFACA1922A7592F00CA4C9A /* Build configuration list for PBXNativeTarget "HomestayTests" */;
+			buildPhases = (
+				8BFAC9FE22A7592F00CA4C9A /* Sources */,
+				8BFAC9FF22A7592F00CA4C9A /* Frameworks */,
+				8BFACA0022A7592F00CA4C9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BFACA0422A7592F00CA4C9A /* PBXTargetDependency */,
+			);
+			name = HomestayTests;
+			productName = HomestayTests;
+			productReference = 8BFACA0222A7592F00CA4C9A /* HomestayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BFACA0C22A7592F00CA4C9A /* HomestayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BFACA1C22A7592F00CA4C9A /* Build configuration list for PBXNativeTarget "HomestayUITests" */;
+			buildPhases = (
+				8BFACA0922A7592F00CA4C9A /* Sources */,
+				8BFACA0A22A7592F00CA4C9A /* Frameworks */,
+				8BFACA0B22A7592F00CA4C9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BFACA0F22A7592F00CA4C9A /* PBXTargetDependency */,
+			);
+			name = HomestayUITests;
+			productName = HomestayUITests;
+			productReference = 8BFACA0D22A7592F00CA4C9A /* HomestayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BFAC9E222A7592D00CA4C9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = le;
+				TargetAttributes = {
+					8BFAC9E922A7592D00CA4C9A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					8BFACA0122A7592F00CA4C9A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8BFAC9E922A7592D00CA4C9A;
+					};
+					8BFACA0C22A7592F00CA4C9A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8BFAC9E922A7592D00CA4C9A;
+					};
+				};
+			};
+			buildConfigurationList = 8BFAC9E522A7592D00CA4C9A /* Build configuration list for PBXProject "Homestay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BFAC9E122A7592D00CA4C9A;
+			productRefGroup = 8BFAC9EB22A7592D00CA4C9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BFAC9E922A7592D00CA4C9A /* Homestay */,
+				8BFACA0122A7592F00CA4C9A /* HomestayTests */,
+				8BFACA0C22A7592F00CA4C9A /* HomestayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BFAC9E822A7592D00CA4C9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFAC9F722A7592F00CA4C9A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFACA0022A7592F00CA4C9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFACA0B22A7592F00CA4C9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74F69F96B6DDC4260CE94186 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Homestay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5909426BDD50637CFFA76D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Homestay/Pods-Homestay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Homestay/Pods-Homestay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Homestay/Pods-Homestay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BFAC9E622A7592D00CA4C9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFAC9FD22A7592F00CA4C9A /* main.m in Sources */,
+				8BFAC9EF22A7592D00CA4C9A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFAC9FE22A7592F00CA4C9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFACA0722A7592F00CA4C9A /* HomestayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFACA0922A7592F00CA4C9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFACA1222A7592F00CA4C9A /* HomestayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BFACA0422A7592F00CA4C9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BFAC9E922A7592D00CA4C9A /* Homestay */;
+			targetProxy = 8BFACA0322A7592F00CA4C9A /* PBXContainerItemProxy */;
+		};
+		8BFACA0F22A7592F00CA4C9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BFAC9E922A7592D00CA4C9A /* Homestay */;
+			targetProxy = 8BFACA0E22A7592F00CA4C9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8BFACA1422A7592F00CA4C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8BFACA1522A7592F00CA4C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BFACA1722A7592F00CA4C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0544437DA8B4AA6217E4E568 /* Pods-Homestay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Homestay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = onehome.yiyou.com.Homestay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BFACA1822A7592F00CA4C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBCC4AC952350D5EDE18A59C /* Pods-Homestay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Homestay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = onehome.yiyou.com.Homestay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8BFACA1A22A7592F00CA4C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomestayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = onehome.yiyou.com.HomestayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homestay.app/Homestay";
+			};
+			name = Debug;
+		};
+		8BFACA1B22A7592F00CA4C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomestayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = onehome.yiyou.com.HomestayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homestay.app/Homestay";
+			};
+			name = Release;
+		};
+		8BFACA1D22A7592F00CA4C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomestayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = onehome.yiyou.com.HomestayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Homestay;
+			};
+			name = Debug;
+		};
+		8BFACA1E22A7592F00CA4C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomestayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = onehome.yiyou.com.HomestayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Homestay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BFAC9E522A7592D00CA4C9A /* Build configuration list for PBXProject "Homestay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFACA1422A7592F00CA4C9A /* Debug */,
+				8BFACA1522A7592F00CA4C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BFACA1622A7592F00CA4C9A /* Build configuration list for PBXNativeTarget "Homestay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFACA1722A7592F00CA4C9A /* Debug */,
+				8BFACA1822A7592F00CA4C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BFACA1922A7592F00CA4C9A /* Build configuration list for PBXNativeTarget "HomestayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFACA1A22A7592F00CA4C9A /* Debug */,
+				8BFACA1B22A7592F00CA4C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BFACA1C22A7592F00CA4C9A /* Build configuration list for PBXNativeTarget "HomestayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFACA1D22A7592F00CA4C9A /* Debug */,
+				8BFACA1E22A7592F00CA4C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BFAC9E222A7592D00CA4C9A /* Project object */;
+}
